@@ -90,7 +90,7 @@ def mira2nc(mmclx_file, output_file, site_properties, rebin_data=False):
 
     Examples:
           >>> from cloudnetpy.mira import mira2nc
-          >>> site_properties = {'name': 'Vehmasmaki'}
+          >>> site_properties = {'name': 'Mace-Head'}
           >>> mira2nc('raw_radar.mmclx', 'radar.nc', site_properties)
 
     """
