@@ -17,11 +17,11 @@ class Mira(DataSource):
             keys are: 'name'.
 
     """
-    keymap = {'Zg': 'Ze',
-              'VELg': 'v',
-              'RMSg': 'width',
-              'LDRg': 'ldr',
-              'SNRg': 'SNR'}
+    keymap = {'Z': 'Ze',
+              'VEL': 'v',
+              'RMS': 'width',
+              'LDR': 'ldr',
+              'SNR': 'SNR'}
 
     def __init__(self, raw_radar_file, site_properties):
         super().__init__(raw_radar_file)
